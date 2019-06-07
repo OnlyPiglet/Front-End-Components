@@ -1,0 +1,102 @@
+*{
+
+	padding: 0;
+	margin: 0;
+	overflow: hidden;
+}
+
+
+html,body{
+	height: 100%;
+	font-size: 20px;
+}
+
+.demo{
+	width: 100%;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: #fff;
+}
+
+.demo-container{
+	
+	display: block;
+
+}
+
+
+.wch-checkbox-outline{
+	width:9rem;
+	height: 3rem;
+	border-radius: 4px;
+	display: block;
+	background-color: #f1eac7;
+	box-sizing: border-box;
+}
+
+.wch-checkbox-outline .wch-checkbox{
+	width: 100%;
+	height: 100%;
+	box-sizing: border-box;
+	display: flex;
+}
+
+
+
+
+.wch-checkbox-outline .wch-checkbox .on{
+	width:  80%;
+	height: 100%;
+	box-sizing: border-box;
+	background-color: 			#ffd8c3;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	transition:all 1s  ease 0.2s;
+}
+
+
+.wch-checkbox-outline .wch-checkbox .separator-line{
+	width: 2%;
+	height: 100%;
+	box-sizing: border-box;
+	background-color: #778899;
+	display: flex;
+	opacity:0.8;
+	transform:rotate(0deg);
+
+}
+
+
+.wch-checkbox-outline .wch-checkbox .off{
+	width: 18%;
+	height: 100%;
+	box-sizing: border-box;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: 		#eaf3c9;
+	transition:all  1s  ease 0.2s;
+	opacity:0.3;
+}
+
+
+.wch-checkbox-outline .wch-checkbox .on span{
+	
+	width: 50%;
+	color: 	#fdb5b9;
+	font: 1rem Arial,Verdana,"宋体";
+	overflow: hidden;
+	text-align: center;
+
+}
+
+.wch-checkbox-outline .wch-checkbox .off span{
+	width: 50%;
+	color: #bbbbee;
+	font: 1rem Arial,Verdana,"宋体";
+	overflow: hidden;
+	text-align: center;
+}
