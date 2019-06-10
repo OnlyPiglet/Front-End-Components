@@ -4,5 +4,5 @@
 ## 特效组件
 ### 照片框
 直接上效果图哈  
-![wch-picturesbox.gif](https://github.com/OnlyPiglet/Front-End-Components/blob/master/picturesbox/picturesbox.gif)
+![wch-picturesbox.gif](https://github.com/OnlyPiglet/Front-End-Components/blob/master/picturesbox/picturebox.gif)
 
