@@ -3,7 +3,7 @@
 ---
 ## 交互组件
 ### Loading
-直接上效果图哈
+直接上效果图哈  
 ![wch-loading.gif](
 https://github.com/OnlyPiglet/Front-End-Components/blob/master/loading/wch-loading.gif)
 
