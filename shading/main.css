@@ -1,0 +1,92 @@
+*{
+
+	padding: 0;
+	margin: 0;
+	overflow: hidden;
+}
+
+html,body{
+	height: 100%;
+	font-size: 20px;
+}
+
+.demo{
+	width: 100%;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: #fff;
+}
+
+
+
+.demo-container{
+	
+	display: block;
+
+}
+
+
+@font-face{
+     font-family:'ltx'; 
+
+     src:url('./fonts/ltx.ttf') format('truetype');
+
+}
+
+
+
+.thing{
+	display: block;
+	height: 30rem;
+	width: 30rem;
+	background-color: pink;
+	box-sizing: border-box;
+	position: relative;
+
+}
+
+
+
+
+
+.thing::after{
+	color: #fff;
+	font-size: 3rem;
+	font-family: "ltx";
+	text-align: center;
+	line-height: 30rem;
+	content: "SuperMe";
+	display: block;
+	background-color: #000;
+	height: 30rem;
+	width: 30rem;
+	transform: rotate(90deg);
+	transform-origin: right bottom;
+	box-sizing: border-box;
+	position: absolute;
+	top: 0%;
+	left: 0%;
+}
+
+
+.thing:hover::after{
+	font-size: 3rem;
+	font-family: "ltx";
+	text-align: center;
+	line-height: 30rem;
+	color: #fff;
+	content: "SuperMe";
+	display: block;
+	background-color: #000;
+	height: 30rem;
+	width: 30rem;
+	opacity: 0.3;
+	transform: rotate(0deg);
+	transform-origin: right bottom;
+	box-sizing: border-box;
+	position: absolute;
+	top: 0%;
+	left: 0%;
+}
